@@ -12,7 +12,7 @@ firebase.initializeApp({
   db.collection("buckets").add({
     name:"buck1",
     todos:JSON.stringify([{
-       "message":"Love Stuti",
+       "message":"Feed my Dog",
        "star": true
     }])
 })
