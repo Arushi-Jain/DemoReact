@@ -1,0 +1,22 @@
+.bucket{
+    border-radius: 10px;
+    border: 2px solid #c9f97e;
+    margin: 10px;
+    color: green;
+    padding: 0px 0px 20px 0px;
+}
+.bucketheading{
+    /* padding: 2px 5px 2px 5px; */
+    background-color: #c9f97e;
+    color:aqua;
+    height: 10px;
+    padding-bottom: 5px;
+}
+.addnew{
+ float: right;
+ background-color: #c9f97e;
+ border-radius: 15px;
+ margin: 10px;
+ padding: 5px 10px;
+ /* color: white; */
+}

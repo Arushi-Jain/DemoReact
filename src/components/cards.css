@@ -1,0 +1,14 @@
+.card{
+    background-color: #f3f099;
+    /* width: 100%; */
+    /* color: #ffffff; */
+    text-align: left; 
+    margin: 10px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    
+}
+.card img{
+  /* color: purple; */
+  float: right;
+}

@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Bucket from './components/buckets'
+// import Card from './components/todocards'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Bucket name="App"/>
+        <Bucket name="App"/>
+        <Bucket name="App"/>
+        <Bucket name="App"/>
+        <Bucket name="App"/>
+        <Bucket name="App"/>
+
+        {/* <Card name="Arushi"/>
+        <Card name="Arushi"/>
+        <Card name="Arushi"/>
+        <Card name="Arushi"/>
+        <Card name="Arushi"/>
+        <Card name="Arushi"/> */}
+        {/* <Card name="Arushi"/> */}
+        
+      </header>         
     </div>
   );
 }
